@@ -1,60 +1,2968 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8" />
+		<meta charset="UTF-8">
 		<title></title>
-		<link rel="stylesheet" href="css/swiper.min.css"  rel="stylesheet"/>
-		<style>
-			*{
-				margin:0;
-				padding:0;
-			}
-			.box{
-				background: #ccc;
-			}
-			.swiper-wrapper{
-				transition-timing-function: linear;
-			}
-			.box ul li{
-				list-style: none;
-				border:1px solid red;
-				
-			}
-		</style>
+		<link rel="stylesheet" href="iconfont/iconfont.css" />
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/common.css" />
 	</head>
 	<body>
-		<div class="box swiper-container">
-			<ul class="swiper-wrapper">
-				<li class="swiper-slide"><img src="img/1.jpg" ></li>
-				<li class="swiper-slide"><img src="img/2.jpg" ></li>
-				<li class="swiper-slide"><img src="img/3.jpg" ></li>
-				<li class="swiper-slide"><img src="img/4.jpg" ></li>
-				<li class="swiper-slide"><img src="img/5.jpg" ></li>
-			</ul>
-			 <!-- 如果需要分页器 -->
-    <div class="swiper-pagination"></div>
-     <!-- 如果需要导航按钮 -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
-    <!-- 如果需要滚动条 -->
-    <div class="swiper-scrollbar"></div>
-    
-		</div>
-		<script src="js/swiper.min.js"></script>
-		<script>
-			var mySwiper = new Swiper('.swiper-container', {
-	   
-          
-	         // 如果需要分页器
-    pagination: '.swiper-pagination',
-     // 如果需要前进后退按钮
-    nextButton: '.swiper-button-next',
-    prevButton: '.swiper-button-prev',
-     // 如果需要滚动条
-    scrollbar: '.swiper-scrollbar',
-});
+		<!--第一部分 头部内容-->
+		<div class="wrap">
+			<!--头部开始-->
+			<div class="hd-head bor-b">
+				<!-- 头部导航-->
+				<div class="head-nav clearfix">
+					<!-- 头部导航左边-->
+					<div class="head_left fl">
+						<i class="iconfont icon-dingwei ver-a-m c-101"></i>
+						<a href="">送货地址:上海</a>
+					</div>
+					<!-- 头部导航右边-->
+					<div class="head_right fr">
+						<ul>
+							<li>
+								<a href="" class="c-101">Hi,请 登录</a>&nbsp;
+								<a href=""> 注册</a>
+							</li>
+							<li>
+								<a href="">
+									<i class="iconfont icon-dingwei ver-a-m "></i>我的订单
+								</a>
+							</li>
+							<li class="touch">
+								<a href="">客户服务</a>
+								<i class="iconfont icon-xia ver-a-m"></i>
+								<div class="empty bor">
+									<a href="">包裹跟踪</a>
+									<a href="">包裹跟踪</a>
+									<a href="">包裹跟踪包</a>
+									<a href="">包裹跟踪</a>
+								</div>
+							</li>
+							<li class="touch">
+								<a href="">企业服务</a>
+								<i class="iconfont icon-xia ver-a-m"></i>
+								<div class="empty">
+								</div>
+							</li>
+						</ul>
+					</div>
+					
+				</div>
+				
+				
+			</div>
+			<!--头部搜索开始-->
+			<div class="hd-search clearfix">
+				<!--头部logo开始-->
+			<h1 class="fl">
+				<a href=""></a>
+			</h1>
+			
+			<!--头部搜索框开始-->
+			<div class="search_box fr ">
+				<div class="box_sea clearfix">
+				<div class="search fl">
+					<input type="text" placeholder="美妆节" class="txt fl">
+						<button class="fl"><i class="iconfont icon-sousuo"></i></button>
+						<div class="search_lis">
+							<a href="">茶机&nbsp;&nbsp;客厅</a>
+							<a href="">边几</a>
+							<a href="">布艺床</a>
+							<a href="">电热壶</a>
+							<a href="">豆腐机</a>
+							<a href="">漏勺</a>
+							<a href="">色母片</a>
+							<a href="">家得宝</a>
+							<a href="">化妆水</a>
+							<a href="">圣培露</a>
+						</div>
+				</div>
+				<!--头部搜索购物车开始-->
+				<div class="shop fr">
+					<a href="">
+						<i class="iconfont icon-gouwuchekong"></i>
+						<span>购物车</span>
+					</a>
+					<div class="shop_kuan">
+						<span></span>
+						<p>您的购物车里面还没有添加一号的商品哦~</p>
+					</div>
+				</div>
+				</div>
+				<!--头部搜索购物车列表开始-->
+				<div class="shop_nav">
+					<ul>
+						<li><a href="">1号抢购</li></a>
+						<li><a href="">1号团</li></a>
+						<li><a href="">领券中心</li></a>
+						<li><a href="">商城优选</li></a>
+						<li><a href="">全球进口</li></a>
+						<li> <a href="">1号生鲜</li></a>
+						<li><a href="">美妆馆</li></a>
+						<li><a href="">家居馆</li></a>
+						<li><a href="">电器城</li></a>
+					</ul>
+				</div>
+			</div>
+			</div>
+			</div>
+			<!--第二部分 内容开始-->
+			<div class="content">
+				<!--图片播放器开始-->
+				<div class="banner_wrap">
+					<div class="banner_shadow">
+					<div class="banner_box">
+						<ul class="banner">
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+						<!--图片按钮开始-->
+						<div class="dot">
+							<a href=""></a>
+							<a href=""></a>
+							<a href=""></a>
+							<a href=""></a>
+							<a href=""></a>
+						</div>
+						<!--选项卡开始-->
+					<a class="prev btn"><i class="iconfont icon-icon-arrow-left2-copy"></i></a>
+					<a class="next btn"><i class="iconfont icon-you1"></i></a>
+						</div>
+						<!--主导航-->
+						<div class="main_nav c-fff">
+							<ul>
+								<li class="main_1">
+									<div class="main_lis">
+									<i class="iconfont icon-jinkouguanniunai"></i>
+									<a href="">全球进口</a>
+									</div>
+									<!--次导航-->
+									<div class="sub_wrap clearfix">
+										<div class="sub_left fl">
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">成人奶粉</a>
+													<a href="">酸奶</a>
+													<a href="">豆奶</a>
+													<a href="">奶酪</a>
+													<a href="">黄油</a>
+													<a href="">奶油</a>
+													<a href="">水果</a>
+													<a href="">肉类</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+										</div>
+										<div class="sub_right fr">
+											<ul>
+												<li class="right_img">
+													<a href=""><img src="images/01-banner/10.jpg" width="80" height="40"> </a>
+													<a href=""><img src="images/01-banner/11.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/12.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/13.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/14.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/15.jpg" width="80" height="40"></a>
+												</li>
+												<li class="right_img1">
+													<a href=""><img src="images/01-banner/16.jpg" width="170" height="100"> </a>
+													<a href=""><img src="images/01-banner/17.jpg" width="170" height="100"></a>
+												</li>
+											</ul>
+										</div>
+										</div>
+								</li>
+								<li class="main_1">
+									<div class="main_lis">
+									<i class="iconfont icon-Emuyingyongpin-ertongcanju"></i>
+									<a href="">食品饮料 /</a><a href="">酒 /</a><a href="">生鲜</a>
+									</div>
+									<!--次导航-->
+									<div class="sub_wrap clearfix">
+										<div class="sub_left fl">
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">成人奶粉</a>
+													<a href="">酸奶</a>
+													<a href="">豆奶</a>
+													<a href="">奶酪</a>
+													<a href="">黄油</a>
+													<a href="">奶油</a>
+													<a href="">水果</a>
+													<a href="">肉类</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+										</div>
+										<div class="sub_right fr">
+											<ul>
+												<li class="right_img">
+													<a href=""><img src="images/01-banner/10.jpg" width="80" height="40"> </a>
+													<a href=""><img src="images/01-banner/11.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/12.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/13.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/14.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/15.jpg" width="80" height="40"></a>
+												</li>
+												<li class="right_img1">
+													<a href=""><img src="images/01-banner/16.jpg" width="170" height="100"> </a>
+													<a href=""><img src="images/01-banner/17.jpg" width="170" height="100"></a>
+												</li>
+											</ul>
+										</div>
+										</div>
+								</li>
+								<li class="main_1">
+									<div class="main_lis">
+									<i class="iconfont icon-yinger"></i>
+									<a href=""></a>母婴 /<a href="">玩具 /</a><a href="">童装</a>
+									</div>
+									<!--次导航-->
+									<div class="sub_wrap clearfix">
+										<div class="sub_left fl">
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">成人奶粉</a>
+													<a href="">酸奶</a>
+													<a href="">豆奶</a>
+													<a href="">奶酪</a>
+													<a href="">黄油</a>
+													<a href="">奶油</a>
+													<a href="">水果</a>
+													<a href="">肉类</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+										</div>
+										<div class="sub_right fr">
+											<ul>
+												<li class="right_img">
+													<a href=""><img src="images/01-banner/10.jpg" width="80" height="40"> </a>
+													<a href=""><img src="images/01-banner/11.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/12.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/13.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/14.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/15.jpg" width="80" height="40"></a>
+												</li>
+												<li class="right_img1">
+													<a href=""><img src="images/01-banner/16.jpg" width="170" height="100"> </a>
+													<a href=""><img src="images/01-banner/17.jpg" width="170" height="100"></a>
+												</li>
+											</ul>
+										</div>
+										</div>
+								</li>
+								<li class="main_1">
+									<div class="main_lis">
+									<i class="iconfont icon-qingjie"></i>
+									<a href="">纸巾 /</a><a href="">厨卫清洁</a>
+									</div>
+									<!--次导航-->
+									<div class="sub_wrap clearfix">
+										<div class="sub_left fl">
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">成人奶粉</a>
+													<a href="">酸奶</a>
+													<a href="">豆奶</a>
+													<a href="">奶酪</a>
+													<a href="">黄油</a>
+													<a href="">奶油</a>
+													<a href="">水果</a>
+													<a href="">肉类</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+										</div>
+										<div class="sub_right fr">
+											<ul>
+												<li class="right_img">
+													<a href=""><img src="images/01-banner/10.jpg" width="80" height="40"> </a>
+													<a href=""><img src="images/01-banner/11.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/12.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/13.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/14.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/15.jpg" width="80" height="40"></a>
+												</li>
+												<li class="right_img1">
+													<a href=""><img src="images/01-banner/16.jpg" width="170" height="100"> </a>
+													<a href=""><img src="images/01-banner/17.jpg" width="170" height="100"></a>
+												</li>
+											</ul>
+										</div>
+										</div>
+								</li>
+								<li class="main_1">
+									<div class="main_lis">
+									<i class="iconfont icon-shafa"></i>
+									<a href="">家居 /</a><a href="">家纺 /</a><a href="">家装 /</a><a href="">宠物</a>
+									</div>
+									<!--次导航-->
+									<div class="sub_wrap clearfix">
+										<div class="sub_left fl">
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">成人奶粉</a>
+													<a href="">酸奶</a>
+													<a href="">豆奶</a>
+													<a href="">奶酪</a>
+													<a href="">黄油</a>
+													<a href="">奶油</a>
+													<a href="">水果</a>
+													<a href="">肉类</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+										</div>
+										<div class="sub_right fr">
+											<ul>
+												<li class="right_img">
+													<a href=""><img src="images/01-banner/10.jpg" width="80" height="40"> </a>
+													<a href=""><img src="images/01-banner/11.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/12.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/13.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/14.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/15.jpg" width="80" height="40"></a>
+												</li>
+												<li class="right_img1">
+													<a href=""><img src="images/01-banner/16.jpg" width="170" height="100"> </a>
+													<a href=""><img src="images/01-banner/17.jpg" width="170" height="100"></a>
+												</li>
+											</ul>
+										</div>
+										</div>
+								</li>
+								<li class="main_1">
+									<div class="main_lis">
+									<i class="iconfont icon-qingjie"></i>
+									<a href="">美妆个人清洁</a>
+									</div>
+									<!--次导航-->
+									<div class="sub_wrap clearfix">
+										<div class="sub_left fl">
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">成人奶粉</a>
+													<a href="">酸奶</a>
+													<a href="">豆奶</a>
+													<a href="">奶酪</a>
+													<a href="">黄油</a>
+													<a href="">奶油</a>
+													<a href="">水果</a>
+													<a href="">肉类</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+										</div>
+										<div class="sub_right fr">
+											<ul>
+												<li class="right_img">
+													<a href=""><img src="images/01-banner/10.jpg" width="80" height="40"> </a>
+													<a href=""><img src="images/01-banner/11.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/12.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/13.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/14.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/15.jpg" width="80" height="40"></a>
+												</li>
+												<li class="right_img1">
+													<a href=""><img src="images/01-banner/16.jpg" width="170" height="100"> </a>
+													<a href=""><img src="images/01-banner/17.jpg" width="170" height="100"></a>
+												</li>
+											</ul>
+										</div>
+										</div>
+								</li>
+								<li class="main_1">
+									<div class="main_lis">
+									<i class="iconfont icon-nvzhuang-copy"></i>
+									<a href=""></a>女装 /<a href="">内衣 /</a><a href="">男装</a><a href="">珠宝</a>
+									</div>
+									<!--次导航-->
+									<div class="sub_wrap clearfix">
+										<div class="sub_left fl">
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">成人奶粉</a>
+													<a href="">酸奶</a>
+													<a href="">豆奶</a>
+													<a href="">奶酪</a>
+													<a href="">黄油</a>
+													<a href="">奶油</a>
+													<a href="">水果</a>
+													<a href="">肉类</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+										</div>
+										<div class="sub_right fr">
+											<ul>
+												<li class="right_img">
+													<a href=""><img src="images/01-banner/10.jpg" width="80" height="40"> </a>
+													<a href=""><img src="images/01-banner/11.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/12.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/13.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/14.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/15.jpg" width="80" height="40"></a>
+												</li>
+												<li class="right_img1">
+													<a href=""><img src="images/01-banner/16.jpg" width="170" height="100"> </a>
+													<a href=""><img src="images/01-banner/17.jpg" width="170" height="100"></a>
+												</li>
+											</ul>
+										</div>
+										</div>
+								</li>
+								<li class="main_1">
+									<div class="main_lis">
+									<i class="iconfont icon-01"></i>
+									<a href="">鞋靴 /</a><a href="">箱包 /</a><a href="">运动户外</a>
+									</div>
+									<!--次导航-->
+									<div class="sub_wrap clearfix">
+										<div class="sub_left fl">
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">成人奶粉</a>
+													<a href="">酸奶</a>
+													<a href="">豆奶</a>
+													<a href="">奶酪</a>
+													<a href="">黄油</a>
+													<a href="">奶油</a>
+													<a href="">水果</a>
+													<a href="">肉类</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+										</div>
+										<div class="sub_right fr">
+											<ul>
+												<li class="right_img">
+													<a href=""><img src="images/01-banner/10.jpg" width="80" height="40"> </a>
+													<a href=""><img src="images/01-banner/11.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/12.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/13.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/14.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/15.jpg" width="80" height="40"></a>
+												</li>
+												<li class="right_img1">
+													<a href=""><img src="images/01-banner/16.jpg" width="170" height="100"> </a>
+													<a href=""><img src="images/01-banner/17.jpg" width="170" height="100"></a>
+												</li>
+											</ul>
+										</div>
+										</div>
+								</li>
+								<li class="main_1">
+									<div class="main_lis">
+									<i class="iconfont icon-shouji"></i>
+									<a href="">手机 /</a><a href="">数码 /</a><a href="">电脑办公</a>
+									</div>
+									<!--次导航-->
+									<div class="sub_wrap clearfix">
+										<div class="sub_left fl">
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">成人奶粉</a>
+													<a href="">酸奶</a>
+													<a href="">豆奶</a>
+													<a href="">奶酪</a>
+													<a href="">黄油</a>
+													<a href="">奶油</a>
+													<a href="">水果</a>
+													<a href="">肉类</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+										</div>
+										<div class="sub_right fr">
+											<ul>
+												<li class="right_img">
+													<a href=""><img src="images/01-banner/10.jpg" width="80" height="40"> </a>
+													<a href=""><img src="images/01-banner/11.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/12.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/13.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/14.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/15.jpg" width="80" height="40"></a>
+												</li>
+												<li class="right_img1">
+													<a href=""><img src="images/01-banner/16.jpg" width="170" height="100"> </a>
+													<a href=""><img src="images/01-banner/17.jpg" width="170" height="100"></a>
+												</li>
+											</ul>
+										</div>
+										</div>
+								</li>
+								<li class="main_1">
+									<div class="main_lis">
+									<i class="iconfont icon-jiadian"></i>
+									<a href="">家用电器/</a><a href="">汽车用品</a>
+									</div>
+									<!--次导航-->
+									<div class="sub_wrap clearfix">
+										<div class="sub_left fl">
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">成人奶粉</a>
+													<a href="">酸奶</a>
+													<a href="">豆奶</a>
+													<a href="">奶酪</a>
+													<a href="">黄油</a>
+													<a href="">奶油</a>
+													<a href="">水果</a>
+													<a href="">肉类</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+										</div>
+										<div class="sub_right fr">
+											<ul>
+												<li class="right_img">
+													<a href=""><img src="images/01-banner/10.jpg" width="80" height="40"> </a>
+													<a href=""><img src="images/01-banner/11.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/12.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/13.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/14.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/15.jpg" width="80" height="40"></a>
+												</li>
+												<li class="right_img1">
+													<a href=""><img src="images/01-banner/16.jpg" width="170" height="100"> </a>
+													<a href=""><img src="images/01-banner/17.jpg" width="170" height="100"></a>
+												</li>
+											</ul>
+										</div>
+										</div>
+								</li>
+								<li class="main_1">
+									<div class="main_lis">
+									<i class="iconfont icon-yiyaoxiang"></i>
+									<a href="">医药/</a><a href="">保健滋补/</a><a href="">成人</a>
+									</div>
+									<!--次导航-->
+									<div class="sub_wrap clearfix">
+										<div class="sub_left fl">
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">成人奶粉</a>
+													<a href="">酸奶</a>
+													<a href="">豆奶</a>
+													<a href="">奶酪</a>
+													<a href="">黄油</a>
+													<a href="">奶油</a>
+													<a href="">水果</a>
+													<a href="">肉类</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+										</div>
+										<div class="sub_right fr">
+											<ul>
+												<li class="right_img">
+													<a href=""><img src="images/01-banner/10.jpg" width="80" height="40"> </a>
+													<a href=""><img src="images/01-banner/11.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/12.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/13.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/14.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/15.jpg" width="80" height="40"></a>
+												</li>
+												<li class="right_img1">
+													<a href=""><img src="images/01-banner/16.jpg" width="170" height="100"> </a>
+													<a href=""><img src="images/01-banner/17.jpg" width="170" height="100"></a>
+												</li>
+											</ul>
+										</div>
+										</div>
+								</li>
+								<li class="main_1">
+									<div class="main_lis">
+									<i class="iconfont icon-shu"></i>
+									<a href="">图书</a>
+									</div>
+									<!--次导航-->
+									<div class="sub_wrap clearfix">
+										<div class="sub_left fl">
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">成人奶粉</a>
+													<a href="">酸奶</a>
+													<a href="">豆奶</a>
+													<a href="">奶酪</a>
+													<a href="">黄油</a>
+													<a href="">奶油</a>
+													<a href="">水果</a>
+													<a href="">肉类</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+											<dl class="clearfix">
+												<dt>乳品生鲜<i class="iconfont icon-you1"></i></dt>
+												<dd>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+													<a href="">牛奶</a>
+												</dd>
+											</dl>
+										</div>
+										<div class="sub_right fr">
+											<ul>
+												<li class="right_img">
+													<a href=""><img src="images/01-banner/10.jpg" width="80" height="40"> </a>
+													<a href=""><img src="images/01-banner/11.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/12.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/13.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/14.jpg" width="80" height="40"></a>
+													<a href=""><img src="images/01-banner/15.jpg" width="80" height="40"></a>
+												</li>
+												<li class="right_img1">
+													<a href=""><img src="images/01-banner/16.jpg" width="170" height="100"> </a>
+													<a href=""><img src="images/01-banner/17.jpg" width="170" height="100"></a>
+												</li>
+											</ul>
+										</div>
+										</div>
+								</li>
+							</ul>	
+						</div>
+							
+							
+							<!--右边登录注册栏-->
+				<div class="submit">
+							<a href="" class="user"></a>
+							<span>Hi~你好!</span>
+							<div class="resit">
+								<a href="">登录</a>
+								<a href="">注册</a></div>
+							<p><span class="c-101">【优选】</span><a href="">霜降至，养生正当时</a></p>
+							<p><span>【优选】</span><a href="">日式餐具的颜值担当</a></p>
+							<p><span>【优选】</span><a href="">十月美味正当时</a></p> 
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<!-- 开始 网页区块 -->
+			<div class='section-wrap'>
 
-</script>
-		</script>
+
+
+				<!-- 开始 一号抢购 -->
+				<div class='up-box clearfix'>
+					<div class='snap-up fl'>
+						<p class='c-000 f-siz14'>本场剩余</p>
+						<div class='time f-siz20 c-fff'>
+							<span>00</span>
+							<i>:</i>
+							<span>00</span>
+							<i>:</i>
+							<span>00</span>
+							
+						</div>
+						<span class='c-fff'>查看更多<i class='iconfont icon-you1'></i></span>
+						<a href=""></a>
+					
+					</div>
+
+
+					<!-- 开始 右边的轮播图 -->
+					<div class='up-banner fl'>
+						<ul class='clearfix'>
+							<li class='fl'>
+								<div class='up-ban-left fl'>
+
+									<p title='光明莫斯利安牛奶,来木马这里一箱只要十块钱，还不快来买一卡车' class='f-siz14'>
+										光明莫斯利安牛奶,来木马这里一箱只要十块钱，还不快来买一卡车！
+									</p>
+									<b class='dis-b f-siz16 c-101'>¥10</b>
+									<span>参考价：¥10</span>
+									
+								</div>
+								<img  class='fr' src="images/02-up-box/2.jpg" alt="" width='' height=''>
+								
+								<div class='up-ban-rig'>已售8%</div>
+								<a href=""></a>
+								
+							</li>
+							<li class='fl'>
+								<div class='up-ban-left fl'>
+
+									<p title='光明莫斯利安牛奶,来木马这里一箱只要十块钱，还不快来买一卡车' class='f-siz14'>
+										光明莫斯利安牛奶,来木马这里一箱只要十块钱，还不快来买一卡车！
+									</p>
+									<b class='dis-b f-siz16 c-101'>¥10</b>
+									<span>参考价：¥10</span>
+									
+								</div>
+								<img  class='fr' src="images/02-up-box/2.jpg" alt="" width='' height=''>
+								
+								<div class='up-ban-rig'>已售8%</div>
+								<a href=""></a>
+								
+							</li>
+							<li class='fl'>
+								<div class='up-ban-left fl'>
+
+									<p title='光明莫斯利安牛奶,来木马这里一箱只要十块钱，还不快来买一卡车' class='f-siz14'>
+										光明莫斯利安牛奶,来木马这里一箱只要十块钱，还不快来买一卡车！
+									</p>
+									<b class='dis-b f-siz16 c-101'>¥10</b>
+									<span>参考价：¥10</span>
+									
+								</div>
+								<img  class='fr' src="images/02-up-box/2.jpg" alt="" width='' height=''>
+								
+								<div class='up-ban-rig'>已售8%</div>
+								<a href=""></a>
+								
+							</li>
+							<li class='fl'>
+								<div class='up-ban-left fl'>
+
+									<p title='光明莫斯利安牛奶,来木马这里一箱只要十块钱，还不快来买一卡车' class='f-siz14'>
+										光明莫斯利安牛奶,来木马这里一箱只要十块钱，还不快来买一卡车！
+									</p>
+									<b class='dis-b f-siz16 c-101'>¥10</b>
+									<span>参考价：¥10</span>
+									
+								</div>
+								<img  class='fr' src="images/02-up-box/2.jpg" alt="" width='' height=''>
+								
+								<div class='up-ban-rig'>已售8%</div>
+								<a href=""></a>
+								
+							</li>
+							<li class='fl'>
+								<div class='up-ban-left fl'>
+
+									<p title='光明莫斯利安牛奶,来木马这里一箱只要十块钱，还不快来买一卡车' class='f-siz14'>
+										光明莫斯利安牛奶,来木马这里一箱只要十块钱，还不快来买一卡车！
+									</p>
+									<b class='dis-b f-siz16 c-101'>¥10</b>
+									<span>参考价：¥10</span>
+									
+								</div>
+								<img  class='fr' src="images/02-up-box/2.jpg" alt="" width='' height=''>
+								
+								<div class='up-ban-rig'>已售8%</div>
+								<a href=""></a>
+								
+							</li>
+							<li class='fl'>
+								<div class='up-ban-left fl'>
+
+									<p title='光明莫斯利安牛奶,来木马这里一箱只要十块钱，还不快来买一卡车' class='f-siz14'>
+										光明莫斯利安牛奶,来木马这里一箱只要十块钱，还不快来买一卡车！
+									</p>
+									<b class='dis-b f-siz16 c-101'>¥10</b>
+									<span>参考价：¥10</span>
+									
+								</div>
+								<img  class='fr' src="images/02-up-box/2.jpg" alt="" width='' height=''>
+								
+								<div class='up-ban-rig'>已售8%</div>
+								<a href=""></a>
+								
+							</li>
+							<li class='fl'>
+								<div class='up-ban-left fl'>
+
+									<p title='光明莫斯利安牛奶,来木马这里一箱只要十块钱，还不快来买一卡车' class='f-siz14'>
+										光明莫斯利安牛奶,来木马这里一箱只要十块钱，还不快来买一卡车！
+									</p>
+									<b class='dis-b f-siz16 c-101'>¥10</b>
+									<span>参考价：¥10</span>
+									
+								</div>
+								<img  class='fr' src="images/02-up-box/2.jpg" alt="" width='' height=''>
+								
+								<div class='up-ban-rig'>已售8%</div>
+								<a href=""></a>
+								
+							</li>
+							<li class='fl'>
+								<div class='up-ban-left fl'>
+
+									<p title='光明莫斯利安牛奶,来木马这里一箱只要十块钱，还不快来买一卡车' class='f-siz14'>
+										光明莫斯利安牛奶,来木马这里一箱只要十块钱，还不快来买一卡车！
+									</p>
+									<b class='dis-b f-siz16 c-101'>¥10</b>
+									<span>参考价：¥10</span>
+									
+								</div>
+								<img  class='fr' src="images/02-up-box/2.jpg" alt="" width='' height=''>
+								
+								<div class='up-ban-rig'>已售8%</div>
+								<a href=""></a>
+								
+							</li>
+						</ul>
+						<a href="" class='up-prev'>
+							<i class="iconfont icon-icon-arrow-left2-copy"></i>
+						</a>
+						<a href="" class='up-next'>
+							<i class="iconfont icon-you1"></i>
+						</a>
+					</div>
+				</div>
+				
+
+				<!-- 开始  特卖 -->
+				<ul class='sale-wrap clearfix mar-t20'>
+
+					<!-- 开始  特卖左边 -->
+					<li class='sale-left fl'>
+						<a href="">
+							<p>品牌特卖</p>
+							<span>每天10:00上新</span>
+						</a>
+					</li>
+
+					<!-- 开始  特卖中间 -->
+					<li  class='sale-middle fl'>
+						<h4>
+							<a href="" class='title'>
+								<i class="iconfont icon-tuangou-copy"></i>
+								<span>团购</span>
+							</a>
+						</h4>
+
+						<ul class='con-mid'>
+							<li class='con-left'>
+								<a href=""><img src="images/03-brands/2.jpg" alt=""></a>
+							</li>
+							<li class='con-rig'>
+								<div class='rig-box'>
+									<a href=""></a>
+									<div>
+										<p>量贩团</p>
+										<span>雅培3段6罐装</span>
+									</div>
+									<div class='img-box'>
+										<img src="images/03-brands/5.jpg" alt="">
+									</div>
+								</div>
+								<div class='rig-box rig-box-1'>
+									<a href=""></a>
+									<div>
+										<p>量贩团</p>
+										<span>雅培3段6罐装</span>
+									</div>
+									<div class='img-box img-box-1'>
+										<img src="images/03-brands/4.jpg" alt="">
+									</div>
+								</div>
+								
+							</li>
+						</ul>
+					</li>
+
+					<!-- 特卖右边开始   -->
+					<li class='sale-middle sale-rig fl'>
+						<h4>
+							<a href="" class='title'>
+								<i class="iconfont icon-jiangbei"></i>
+								<span>排行榜</span>
+							</a>
+							<a href="" class='more'>查看更多<i class="iconfont icon-you1"></i></a>
+						</h4>
+
+						<div class='rig-con'>
+							<div class='rig-subnav'>
+								<a href="">床</a>
+								<a href="">手机通讯</a>
+								<a href="">手机通讯</a>
+								<a href="">手机通讯</a>
+								<a href="">手机通讯</a>
+							</div>
+
+							<ul class='snav-list'>
+								<li>
+									<a href="" class='list-win'>
+										<img src="images/03-brands/6.jpg" alt="">
+										<span>LOVO 家纺罗莱出</span>
+										<i>1</i>
+									</a>
+								</li>
+								<li>
+									<a href="" class='list-win'>
+										<img src="images/03-brands/7.jpg" alt="">
+										<span>水星家纺 床上四件</span>
+										<i>2</i>
+									</a>
+								</li>
+								<li>
+									<a href="" class='list-win'>
+										<img src="images/03-brands/6.jpg" alt="">
+										<span>南极人四件套纯棉</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="images/03-brands/7.jpg" alt="">
+										<span>LOVO南极人四件</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="images/03-brands/8.jpg" alt="">
+										<span>LOVO 家纺罗莱出</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="images/03-brands/9.jpg" alt="">
+										<span>LOVO 家纺罗莱出</span>
+									</a>
+								</li>
+								
+							</ul>
+						</div>
+		
+					</li>
+				</ul>
+					
+				
+
+				<!-- 开始 上新 -->
+				<ul class='sale-wrap new-wrap clearfix mar-t20'>
+
+					<!-- 开始  上新左边 -->
+					<li class='sale-left new-left fl'>
+						
+					</li>
+
+					<!-- 开始  上新中间 -->
+					<li  class='sale-middle new-middle fl'>
+						<h4>
+							<a href="" class='title'>
+								<i class="iconfont icon-tuangou-copy"></i>
+								<span>耍大牌</span>
+							</a>
+						</h4>
+
+						<ul class='con-mid new-mid'>
+							<li class='con-left'>
+								<a href=""><img src="images/03-brands/2.jpg" alt=""></a>
+							</li>
+
+
+							<li class='n-r-box'>
+								<div class='r-box'>
+									<a href=""></a>
+									
+									<p class='c-000'>量贩式</p>
+									<span>雅培3段6罐装</span>
+								
+									<img src="images/03-brands/5.jpg" alt="">
+								</div>
+								<div class='r-box'>
+									<a href=""></a>
+									
+									<p class='c-000'>量贩式</p>
+									<span>雅培3段6罐装</span>
+								
+									<img src="images/03-brands/5.jpg" alt="">
+								</div>
+								<div class='r-box r-box-1'>
+									<a href=""></a>
+									
+									<p class='c-000'>量贩式</p>
+									<span>雅培3段6罐装</span>
+								
+									<img src="images/03-brands/5.jpg" alt="">
+								</div>
+							</li>
+						</ul>
+					</li>
+
+					<!--  上新右边开始  -->
+					<li class='sale-middle sale-rig fl'>
+						<h4>
+							<a href="" class='title'>
+								<i class="iconfont icon-jiangbei"></i>
+								<span>排行榜</span>
+							</a>
+							<a href="" class='more'>查看更多<i class="iconfont icon-you1"></i></a>
+						</h4>
+
+						<div class='rig-con'>
+							<div class='rig-subnav'>
+								<a href="">床</a>
+								<a href="">手机通讯</a>
+								<a href="">手机通讯</a>
+								<a href="">手机通讯</a>
+								<a href="">手机通讯</a>
+							</div>
+
+							<ul class='snav-list'>
+								<li>
+									<a href="" class='list-win'>
+										<img src="images/03-brands/6.jpg" alt="">
+										<span>LOVO 家纺罗莱出</span>
+										<i>1</i>
+									</a>
+								</li>
+								<li>
+									<a href="" class='list-win'>
+										<img src="images/03-brands/7.jpg" alt="">
+										<span>水星家纺 床上四件</span>
+										<i>2</i>
+									</a>
+								</li>
+								<li>
+									<a href="" class='list-win'>
+										<img src="images/03-brands/6.jpg" alt="">
+										<span>南极人四件套纯棉</span>
+										<i>3</i>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="images/03-brands/7.jpg" alt="">
+										<span>LOVO南极人四件</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="images/03-brands/8.jpg" alt="">
+										<span>LOVO 家纺罗莱出</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="images/03-brands/9.jpg" alt="">
+										<span>LOVO 家纺罗莱出</span>
+									</a>
+								</li>
+								
+							</ul>
+						</div>
+		
+					</li>
+				</ul>
+				
+
+				<!-- 开始  全球进口 -->
+
+				<div class='global-wrap mar-t20'>
+
+					<h2>全球进口<i class="iconfont icon-you"></i></h2>
+					
+					<ul class='global-box clearfix'>
+
+						<!-- 开始  左边 -->
+						<li class='global fl'>
+							<div>
+								<a href="">进口坚果</a>
+								<a href="">进口饼干</a>
+							<a href="">进口坚果</a>
+								<a href="">进口饼干</a>
+								<a href="">进口坚果</a>
+								<a href="">进口饼干</a>
+							</div>
+						</li>
+						
+						<!-- 开始  中间 -->
+						<li class='global-middle fl'>
+							<div class='clearfix'>
+								
+								<a href="" class='m-child m-child-1'>
+									
+								</a>
+								<a href="" class='m-child m-child-2'>
+									<p>鸥露OULU</p>
+									<span>抑菌本色纸</span>
+								</a>
+								<a href="" class='m-child m-child-3'>
+									<p>鸥露OULU</p>
+									<span>抑菌本色纸</span>
+								</a>
+								<a href="" class='m-child m-child-4' >
+									<p>鸥露OULU</p>
+									<span>抑菌本色纸</span>
+								</a>
+								<a href="" class='m-child m-child-5'>
+									<p>鸥露OULU</p>
+									<span>抑菌本色纸</span>
+								</a>
+							</div>
+						</li>
+
+
+
+
+
+						<!-- 开始  右边 -->
+						<li class='global-rig fl'>
+							<div>
+								<a href="">
+									<p>进口美护</p>
+									<span>REAUTIY</span>
+									<i></i>
+									<img src="images/05-global/1.png" alt="">
+								</a>
+								<a href="" class='r-box'>
+									<p>进口美护</p>
+									<span>REAUTIY</span>
+									<i></i>
+									<img src="images/05-global/2.png" alt="">
+								</a>
+								<a href=""class='r-box'>
+									<p>进口美护</p>
+									<span>REAUTIY</span>
+									<i></i>
+									<img src="images/05-global/1.png" alt="">
+								</a>
+								<a href="" >
+									<p>进口美护</p>
+									<span>REAUTIY</span>
+									<i></i>
+									<img src="images/05-global/2.png" alt="">
+								</a>
+								<a href="" class='r-box'>
+									<p>进口美护</p>
+									<span>REAUTIY</span>
+									<i></i>
+									<img src="images/05-global/1.png" alt="">
+								</a>
+								<a href="" >
+									<p>进口美护</p>
+									<span>REAUTIY</span>
+									<i></i>
+									<img src="images/05-global/2.png" alt="">
+								</a>
+							</div>
+						</li>
+					</ul>
+					
+				</div>
+				
+				<!-- 国产食品 开始-->
+
+				<ul class="domestic mar-t20">
+
+					<!-- 开始  左边 -->
+					<li class='dom-left'>
+						<p>国产食品 <i class='iconfont icon-you1'></i></p>
+						<span class='c-fff'>国产零食</span>
+						<!-- 开始  轮播图 -->
+						<div class='left-baner'>
+							<ul>
+								
+								<li class='l-b-list1'>
+									<a href="">
+										<p>国产食品</p>
+										<span>国产木马</span>
+										<img src="images/06-domestic/1.jpg" alt="">
+									</a>
+									<div class='color-box'></div>
+								</li>
+
+
+								<li  class='l-b-list2'>
+									<a href="">
+										<p>国产木马</p>
+										<span>国产ibaby</span>
+										<img src="images/06-domestic/2.png" alt="">
+									</a>
+									<div class='color-box'></div>
+								</li>
+
+
+								<li  class='l-b-list3'>
+									<a href="">
+										<p>国产木马</p>
+										<span>国产打印机</span>
+										<img src="images/06-domestic/3.jpg" alt="">
+									</a>
+									<div class='color-box'></div>
+								</li>
+							</ul>
+							<div class='left-baner-btn'>
+								<i class='iconfont icon-icon-arrow-left2-copy '></i>
+								<span>0</span>/<span>0</span>
+								<i class='iconfont icon-you1'></i>
+							</div>
+							<div class='l-news'>
+								<i class='iconfont icon-xiaoxi'></i>
+								<span></span>
+							</div>
+						</div>
+					</li>
+					<!-- 开始  中间 -->
+					
+							<li class="dom-middle">
+						<div class="dom-middle_nav">
+							<a href=""> |  坚果炒货  |</a>
+							<a href="">饼干蛋糕  | </a>
+							<a href="">粮油调味  | </a>
+							<a href="">方便速食  | </a>
+							<a href="">糖果/巧克力  | </a>
+							<a href="">蜂蜜</a>
+						</div>
+						<ul class="dom-middle_nav2">
+							<li>
+								<p class="f-siz16">国产食品</p>
+								<span class="c-f00 f-siz14">爆款直降9.9</span>
+							<img src="images/05-global/3.jpg" width="130" height="130">
+							</li>
+							<li>
+								<p class="f-siz16">国产食品</p>
+								<span class="c-f00 f-siz14">爆款直降9.9</span>
+							<img src="images/05-global/3.jpg" width="130" height="130">
+							</li>
+							<li class="unde">
+								<p class="f-siz16">国产食品</p>
+								<span class="c-f00 f-siz14">爆款直降9.9</span>
+							<img src="images/05-global/3.jpg" width="130" height="130">
+							</li>
+							<li>
+								<p class="f-siz16">国产食品</p>
+								<span class="c-f00 f-siz14">爆款直降9.9</span>
+							<img src="images/05-global/3.jpg" width="130" height="130">
+							</li>
+							<li>
+								<p class="f-siz16">国产食品</p>
+								<span class="c-f00 f-siz14">爆款直降9.9</span>
+							<img src="images/05-global/3.jpg" width="130" height="130">
+							</li>
+							<li class="shiping unde">
+								<div>
+									<a><img src="images/01-banner/7.jpg"></a>
+									<a><img src="images/01-banner/7.jpg"></a>
+									<a><img src="images/01-banner/7.jpg"></a>
+									<a><img src="images/01-banner/7.jpg"></a>
+									<a class="no_und"><img src="images/01-banner/7.jpg"></a>
+									<a class="no_und"><img src="images/01-banner/7.jpg"></a>
+								</div>
+							</li>
+						</ul>
+					</li>
+					<!-- 右边开始-->
+					<li class="dom-right">
+						<h6 class="t-a-c ">热门商品</h6>
+						<dl class="clearfix">
+							<dt class="fl"><img src="images/06-domestic/6.jpg"></dt>
+							<dd class="f-siz14 fr">乐事 ( Lay's ) 薯片 休闲食品 美国经典</dd>
+							<dd class="c-f00 fr">￥9.9</dd>
+							<span class="c-fff">1</span>
+						</dl>
+						<dl class="clearfix">
+							<dt class="fl"><img src="images/06-domestic/6.jpg"></dt>
+							<dd class="f-siz14 fr">乐事 ( Lay's ) 薯片 休闲食品 美国经典</dd>
+							<dd class="c-f00 fr">￥9.9</dd>
+							<span class="c-fff">2</span>
+						</dl>
+						<dl class="clearfix">
+							<dt class="fl"><img src="images/06-domestic/6.jpg"></dt>
+							<dd class="f-siz14 fr">乐事 ( Lay's ) 薯片 休闲食品 美国经典</dd>
+							<dd class="c-f00 fr">￥9.9</dd>
+							<span class="c-fff">3</span>
+						</dl>
+						<dl class="clearfix">
+							<dt class="fl"><img src="images/06-domestic/6.jpg"></dt>
+							<dd class="f-siz14 fr">乐事 ( Lay's ) 薯片 休闲食品 美国经典</dd>
+							<dd class="c-f00 fr">￥9.9</dd>
+						</dl>
+						<dl class="clearfix">
+							<dt class="fl"><img src="images/06-domestic/6.jpg"></dt>
+							<dd class="f-siz14 fr">乐事 ( Lay's ) 薯片 休闲食品 美国经典</dd>
+							<dd class="c-f00 fr">￥9.9</dd>
+						</dl>
+					</li>
+				</ul>
+				
+
+				<!-- 懂你想要 -->
+				<div class='like-wrap mar-t20'>	
+					<h4>
+						<span>懂你所爱</span>
+							
+					</h4>
+					<ul class='like-box clearfix'>
+						<li>
+							<img src="images/07-like/1.jpg" alt="">
+							<p>茶花 晾衣架子通用型晒衣架衣服挂子 0701 6支装</p>
+							<span>¥19.90</span>
+						</li>
+						<li>
+							<img src="images/07-like/58c8e329N51e437c3.jpg" alt="">
+							<p>上院地毯 满铺人造草坪  塑料草皮仿真人造草坪幼儿园楼顶阳台人工假草皮假草皮 10mm普通草绿色/直草 宽幅2米每平价 0701 6支装</p>
+							<span>¥19.90</span>
+						</li>
+						<li>
+							<img src="images/07-like/1.jpg" alt="">
+							<p>茶花 晾衣架子通用型晒衣架衣服挂子 0701 6支装</p>
+							<span>¥19.90</span>
+						</li>
+						<li>
+							<img src="images/07-like/58c8e329N51e437c3.jpg" alt="">
+							<p>茶花 晾衣架子通用型晒衣架衣服挂子 0701 6支装</p>
+							<span>¥19.90</span>
+						</li>
+						<li>
+							<img src="images/07-like/1.jpg" alt="">
+							<p>茶花 晾衣架子通用型晒衣架衣服挂子 0701 6支装</p>
+							<span>¥19.90</span>
+						</li>
+						<li>
+							<img src="images/07-like/58c8e329N51e437c3.jpg" alt="">
+							<p>茶花 晾衣架子通用型晒衣架衣服挂子 0701 6支装</p>
+							<span>¥19.90</span>
+						</li>
+						<li>
+							<img src="images/07-like/1.jpg" alt="">
+							<p>茶花 晾衣架子通用型晒衣架衣服挂子 0701 6支装</p>
+							<span>¥19.90</span>
+						</li>
+						<li>
+							<img src="images/07-like/58c8e329N51e437c3.jpg" alt="">
+							<p>茶花 晾衣架子通用型晒衣架衣服挂子 0701 6支装</p>
+							<span>¥19.90</span>
+						</li>
+						<li>
+							<img src="images/07-like/1.jpg" alt="">
+							<p>茶花 晾衣架子通用型晒衣架衣服挂子 0701 6支装</p>
+							<span>¥19.90</span>
+						</li>
+						<li>
+							<img src="images/07-like/58c8e329N51e437c3.jpg" alt="">
+							<p>茶花 晾衣架子通用型晒衣架衣服挂子 0701 6支装</p>
+							<span>¥19.90</span>
+						</li>
+					</ul>
+
+
+					<div class='like-foot'>
+						<span>已经到底啦</span>
+					</div>
+				</div>
+			</div>
+			<div class='left-sideNav'>
+				<ul class='l-s-box'>
+					<li><a href="">全球进口</a></li>
+					<li><a href="" class='list2'>全球进口</a></li>
+					<li><a href="">全球进口</a></li>
+					<li><a href="">全球进口</a></li>
+					<li><a href="">全球进口</a></li>
+					<li><a href="">全球进口</a></li>
+					<li><a href="">全球进口</a></li>
+					<li><a href="">全球进口</a></li>
+					<li><a href="">全球进口</a></li>
+				</ul>
+			</div>
+			<!--右边导航开始   -->
+			<div class='right-sideNav'>
+				<ul class='r-top'>
+					<li class='list1'>
+						<a href="">
+							<i class='iconfont icon-yonghu'></i>
+							<span>个人中心</span>
+						</a>
+					</li>
+					<li  class='list2'>
+						<a href="" >
+							<i class='iconfont icon-gouwuchekong'></i>
+							<b>购物车</b>
+							<i class='ico'>1</i>
+						</a>
+					</li>
+					<li  class='list1 list3'>
+						<a href="">
+							<i class='iconfont icon-diaopaijia'></i>
+							<span>抵用券</span>
+						</a>
+					</li>
+				</ul>
+				<ul class='r-bot'>
+					<li>
+						<a href="">
+							<i class='iconfont icon-fankui'></i>
+							<span>个人中心</span>
+						</a>
+					</li>
+					<li class='bot-list2'>
+						<a href="">
+							<i class='iconfont icon-saoma'></i>
+							<img src="images/" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<i  class='iconfont icon-fanhuidingbu'></i>
+							<span>个人中心</span>
+						</a>
+					</li>
+				</ul>
+
+
+
+			</div>
+		</div>
+		<!-- 开始  底部 -->
+		<div class='hd-footer'>
+
+			<div class='footer-wrap'>
+				<ul class='foot-top clearfix bor-b'>
+					<li>
+						<img src="images/08-footer/11.jpg" alt="">
+						<p>
+							<b>正品保障</b>
+							<span>正品行货 放心选购</span>
+						</p>
+					</li>
+					<li>
+						<img src="images/08-footer/12.jpg" alt="">
+						<p>
+							<b>正品保障</b>
+							<span>正品行货 放心选购</span>
+						</p>
+					</li>
+					<li>
+						<img src="images/08-footer/13.jpg" alt="">
+						<p>
+							<b>正品保障</b>
+							<span>正品行货 放心选购</span>
+						</p>
+					</li>
+					<li>
+						<img src="images/08-footer/15.jpg" alt="">
+						<p>
+							<b>正品保障</b>
+							<span>正品行货 放心选购</span>
+						</p>
+					</li>
+				</ul>
+
+
+
+
+				<div class='foot-middle clearfix'>
+					<ul class='mi-left fl'>
+						<li>
+							<b>新手入门</b>
+							<a href="">购物流程</a>
+							<a href="">会员制度</a>
+							<a href="">订单查询</a>
+							<a href="">发票制度</a>
+						</li>
+						<li>
+							<b>新手入门</b>
+							<a href="">购物流程</a>
+							<a href="">会员制度</a>
+							<a href="">订单查询</a>
+							<a href="">发票制度</a>
+						</li>
+						<li>
+							<b>新手入门</b>
+							<a href="">购物流程</a>
+							<a href="">会员制度</a>
+							<a href="">订单查询</a>
+							<a href="">发票制度</a>
+						</li>
+						<li>
+							<b>新手入门</b>
+							<a href="">购物流程怒梦</a>
+							<a href="">会员制度</a>
+							<a href="">订单查询</a>
+							<a href="">发票制度</a>
+						</li>
+					</ul>
+					<div class='mid-rig fl'>
+						<p>
+							<b>APP更优惠</b>
+							<img src="images/08-footer/16.jpg" alt="">
+						</p>
+						<p>
+							<b>加微信查订单</b>
+							<img src="images/08-footer/17.png" alt="">
+						</p>
+					</div>
+				</div>
+
+				<p>
+					<a href="">沪ICP备16050468号</a> | 
+					<a href="">沪ICP备16050468号</a> | 
+					<a href="">沪ICP备16050468号</a> | 
+					<a href="">沪ICP备16050468号</a> | 
+					<a href="">沪ICP备16050468号</a> 
+				</p>
+				<p>Copyright©1号店网上超市2007-2017，AllRightsReserved</p>
+				<p>
+					<img src="images/08-footer/1.png" alt="">
+					<img src="images/08-footer/4.jpg" alt="">
+					<img src="images/08-footer/6.jpg" alt="">
+					<img src="images/08-footer/5.gif" alt="">
+					<img src="images/08-footer/6.jpg" alt="">
+					<img src="images/08-footer/7.jpg" alt="">
+					<img src="images/08-footer/14.jpg" alt="">
+					<img src="images/08-footer/9.jpg" alt="">
+				</p>
+
+
+			</div>
+		</div>
+	</div>
+
 	</body>
 </html>
