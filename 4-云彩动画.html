@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>TZ-追梦</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #sky{
+            height: 499px;
+            background: #1582CC;
+            border: 1px solid;
+            animation: color 50s ease-out infinite;
+            position: relative;
+        }
+        @keyframes color {
+            0%{ background: #1582CC }
+            50%{ background: #001625 }
+            100%{ background: #1582CC }
+        }
+        #sky div{
+            position: absolute;
+            top:0;
+            left:0;
+            width: 300%;
+            height: 100%;
+        }
+        #sky .one{
+            background: url(images/cloud_one.png);
+            animation: move 50s ease-out infinite;
+        }
+        #sky .two{
+            background: url(images/cloud_two.png);
+            animation: move 80s ease-out infinite;
+        }
+        #sky .three{
+            background: url(images/cloud_three.png);
+            animation: move 100s ease-out infinite;
+        }
+
+        @keyframes move {
+            from{ left: 0 }
+            to{ left:-200% }
+        }
+    </style>
+</head>
+<body>
+    <div id="sky">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+    </div>
+</body>
+</html>
